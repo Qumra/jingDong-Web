@@ -1,0 +1,167 @@
+.banner604 {
+	position: relative;
+}
+.banner604 a {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 604px;
+	width: 100%;
+	background: url(../imgs/banner.jpg) no-repeat top center;/*top center不太懂*/
+}
+.main {
+	position: relative;
+}
+.slider {
+	width: 730px;
+	height: 454px;
+	background: pink;
+	margin: 12px 0 0 220px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.slider ul li {
+	width: 730px;
+	height: 454px;
+	float: left;
+}
+.slider ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1000%;
+}
+  .slider ol {
+	position: absolute;
+	bottom: 8px;
+	left: 50%;
+	margin-left: -66px;
+}
+.slider ol li {
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	background: #3e3e3e;
+	border-radius: 50%;
+	margin: 0 2px;
+	cursor: pointer;
+}
+ol li.current {
+	background: #b61b1f;
+}
+.arrow-l,.arrow-r {
+	position: absolute;
+	width: 28px;
+	height: 62px;
+	background:rgba(0,0,0,.3);
+	top: 50%;
+	margin-top: -31px;
+	color: #fff;
+	font:500 18px/62px "宋体";
+	text-align: center;
+}
+.arrow {
+	display: none;
+}
+.arrow-l {
+	left:0;
+}
+.arrow-r {
+	right:0;
+}
+.arrow-l:hover,.arrow-r:hover {
+	background:rgba(0,0,0,.4);
+	color:#fff;
+
+}
+.news {
+	width: 248px;
+	height: 451px;
+	border: 1px solid #e4e4e4;
+	float: right;
+	margin-top: 12px;
+}
+.jd-news {
+	height: 200px;
+	border-bottom: 1px dashed #e4e4e4;
+}
+.jd-news .dt,.lifeservi .dt {
+	height: 43px;
+	border-bottom: 1px dotted #e8e8e7;
+}
+.jd-news .dt h3,
+.lifeservi .dt h3
+ {
+	float: left;
+	padding-left: 15px;
+	color:#666;
+	font:14px/43px "微软雅黑";
+}
+.jd-news .dt a {
+	float: right;
+	font:13px/43px "宋体";
+	margin-right: 15px;
+}
+.jd-news .dd ul{
+	padding: 8px 0 0 15px;
+}
+.jd-news .dd li {
+	line-height: 28px;
+}
+.jd-news .dd li span {
+	font-weight: 700;
+	margin-right: 5px;
+}
+.lifeservi {
+	height: 251px;
+	width: 248px;
+	overflow: hidden;
+}
+.lifeservi ul {
+	width: 252px;
+}
+.lifeservi ul li {
+	width: 62px;
+	height: 70px;
+	border: 1px solid #e4e4e4;
+	float: left;
+	margin: -1px 0 0 -1px;
+}
+.lifeservi li a {
+	display: block;
+	height: 70px;
+	text-align: center;
+	padding-top: 44px;
+	position: relative;
+}
+
+.lifeservi li i{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 12px;
+	left: 18px;
+	background: url(../imgs/spriteicon.png) no-repeat top right;
+}
+.today {
+	position: relative;
+}
+.night {
+	margin: 10px 0 28px 0;
+}
+
+.night-r {
+	width: 1000px;
+	height: 160px;
+}
+.night-r ul {
+	width: 500%;
+}
+.night-r li {
+	float: left;
+	margin-right: 1px;
+}
